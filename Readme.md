@@ -3,7 +3,7 @@
 Created at: 2017-06-23 11:20:27 EST
 
 ```
-printf "1. RepoB new commit at: `now`\n" >> Readme.md && ga . && git commit -m "RepoB new commit at: `now`" && git push origin master
+md RepoB_`now1` && printf "RepoB new file created at `now1`" >> RepoB_`now1`/RepoB_`now1`.txt && printf "1. RepoB new commit at: `now`\n" >> Readme.md && ga . && git commit -m "RepoB n ew commit at: `now`" && git push origin master
 ```
 
 1. RepoB new commit at: 2017-06-23 11:22:28 EST
@@ -17,3 +17,4 @@ printf "1. RepoB new commit at: `now`\n" >> Readme.md && ga . && git commit -m "
 1. RepoB new commit at: 2017-06-23 11:28:01 EST
 1. RepoB new commit at: 2017-06-23 11:40:19 EST
 1. RepoB new commit at: 2017-06-23 11:40:56 EST
+1. RepoB new commit at: 2017-06-23 11:41:52 EST
